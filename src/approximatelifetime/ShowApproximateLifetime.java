@@ -26,7 +26,7 @@ public class ShowApproximateLifetime {
         String approximation = " was approximately " + lifetime + " years old.";
 
         System.out.println(personName + born + birthYear + " and" + died + deathYear + "\n" +
-                           "when " + personName + approximation);
+                "when " + personName + approximation);
 
         scan.close();
 
