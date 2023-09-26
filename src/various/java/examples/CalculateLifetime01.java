@@ -6,10 +6,12 @@
    "Christopher Tolkien was born in 1924 and died in 2020
    when Christopher Tolkien was approximately 96 years old"
 */
-package approximatelifetime;
+
+package various.java.examples;
 
 import java.util.Scanner;
-public class ShowApproximateLifetime {
+
+public class CalculateLifetime01 {
 
     public static void main(String[] args) {
 

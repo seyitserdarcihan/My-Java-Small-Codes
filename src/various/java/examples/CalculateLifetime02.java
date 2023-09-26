@@ -1,15 +1,14 @@
-/* In this code, I am trying to learn error handling.
-   Although I don't understand it completely, I am
-   adding the code here to be able to compare this with
-   ShowApproximateLifetime code.
-   The difference is at lines 22-31
+/* Bu kodun CalculateLifetime01 kodundan farkı,
+   24-30 no.lu satırlarda try-catch blokunun eklenmesi
  */
 
-package approximatelifetime;
 
-        import java.util.Scanner;
-        import java.util.InputMismatchException;   //This class is used to write error-handling code (go to 22-31)
-public class ApproximateLifetimeErrorHandling {
+package various.java.examples;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class CalculateLifetime02 {
 
     public static void main(String[] args) {
 
@@ -42,9 +41,3 @@ public class ApproximateLifetimeErrorHandling {
 
     }
 }
-
-
-/* The difference between this code and ShowApproximateLifetime is error handling.
-   try-catch block causes an error message shown in console if
-   a non-numeric input was typed for birthYear or deathYear.
- */
